@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <time.h>
-#include <stdlib.h>
+#include <stdlib.h> 
 
 #define MAX_NUMBERS 20
 #define ARRAY_SIZE 20
@@ -32,7 +32,7 @@ void printArray(int arr[], int size) {
 
 void Q3() {
     int arr[ARRAY_SIZE];
-    srand(time(0)); // Seed the random number generator
+    srand(time(0)); // Random number generator
 
     for (int i = 0; i < ARRAY_SIZE; i++) {
         arr[i] = rand() % 100 + 1; // Random numbers between 1 and 100
